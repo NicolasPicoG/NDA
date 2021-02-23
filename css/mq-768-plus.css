@@ -1,0 +1,123 @@
+/* styles */
+h1 {
+    font-size: 3.5rem;
+}
+/* header */
+header {
+    height: 95px;
+    justify-content: space-between;
+}
+header nav {
+    width: 230px;
+    display: block;
+}
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+header a {
+    color: rgb(147, 156, 170);
+}
+header button {
+    display: block;
+}
+.logo {
+    width: 105px;
+    height: 35px;
+}
+.hamburger {
+    display: none;
+}
+.header-left {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-right: 60px;
+}
+/* mobile navigation */
+.mobile-nav-container {
+    display: none;
+}
+/* index page */
+.index-banner {
+    height: 600px;
+    background-image: url('../assets/images/abogados-tablet.png');
+}
+.index-banner-content {
+    width: 575px;
+}
+#index-banner-arrow {
+    display: block;
+    position: absolute;
+    left: -125px;
+    bottom: 30px;
+}
+#index-banner-circles {
+    display: block;
+    position: absolute;
+    right: -35px;
+    bottom: 50px;
+}
+.index-icons {
+    padding: 0px 97px;
+}
+.index-icons-block {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.index-icons-block div {
+    width: 75%;
+    text-align: left;
+}
+.index-icons-block svg {
+    margin-right: 45px;
+}
+#index-icons-line {
+    display: block;
+    width: 20px;
+    height: 540px;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    z-index: 1;
+    background-color: #E5ECF4;
+}
+.index-icons h3 {
+    margin: 0px 0px 30px 0px;
+}
+.index-images {
+    padding: 0 97px;
+}
+.title-banner {
+    height: 200px;
+    justify-content: flex-start;
+}
+.title-banner svg {
+    display:  block;
+    position: absolute;
+    right: -30px;
+}
+.about-background {
+    background-image: url("../assets/images/baner.jpg");
+}
+.info-image {
+    width: 400px;
+}
+.arrow-left {
+    position: absolute;
+    right: calc(100vw - 400px);
+    transform: scaleX(-1);
+}
+.arrow-right {
+    left: calc(100vw - 700px);
+}
+
+/* footer */
+footer {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    flex-direction: row;
+}

@@ -1,0 +1,122 @@
+/* spacing */
+.container {
+    padding: 0px 150px;
+}
+/* header */
+header {
+    padding: 0px 150px;
+}
+/* index page */
+.index-icons {
+    padding: 0px 150px;
+}
+.index-icons-container {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-row: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 45px;
+    justify-content: center;
+}
+.index-icons-block {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0px;
+}
+.index-icons-block div {
+    width: 100%;
+}
+.index-icons-block h3 {
+    margin: 30px 0px;
+}
+#index-icons-line {
+    height: 20px;
+    width: 73%;
+    left: 0;
+    top: 160px;
+}
+.index-images {
+    padding: 0px 170px;
+}
+.index-image-block {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: 0px;
+}
+.index-image-block img {
+    margin: 0px;
+}
+.index-images img {
+    width: 400px;
+}
+.reverse-block {
+    order: 2;
+    margin-left: 100px;
+}
+.non-reverse-block {
+    margin-right: 100px;
+}
+.margin-block {
+    margin-bottom: 100px;
+}
+.svg-left-arrow {
+    top: 150px;
+}
+/* secondary pages */
+.title-banner {
+    padding: 0px 150px;
+}
+.about-background {
+    background-image: url("../assets/images/baner.jpg");
+}
+.info-image-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+.reverse-image {
+    margin-left: 70px;
+    order: 2;
+}
+.non-reverse-image {
+    margin-right: 70px;
+}
+.info-image-block-content {
+    width: 450px;
+}
+.info-image-block-content h3 {
+    margin: 0px 0px 30px 0px;
+}
+.arrow-right {
+    left: calc(100vw - 500px);
+    top: 40%;
+}
+.values-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.job-section {
+    padding: 50px 175px;
+}
+.map {
+    background-image: url("../assets/images/world-map-desktop.png");
+}
+/* download section */
+.download-section {
+    height: 300px;
+    padding: 0px 170px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.app-icons{
+    justify-content: flex-end;
+    margin: 0px;
+}
+/* footer */
+footer {
+    padding-left: 170px;
+    padding-right: 170px;
+}

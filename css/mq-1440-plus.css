@@ -1,0 +1,43 @@
+.container, .title-banner {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+header {
+    padding: 35px 200px;
+}
+.index-banner {
+    height: 650px;
+    padding: 0px 200px;
+    background-image: url('../assets/images/abogados.png');
+    justify-content: flex-start;
+}
+.index-banner-content {
+    width: 540px;
+    align-items: flex-start;
+    text-align: left;
+}
+.index-banner-content p, .index-banner-content button {
+    margin-left: 95px;
+}
+#index-banner-arrow {
+    top: 50%;
+    left: 52%;
+}
+#index-banner-circles {
+    bottom: 190px; 
+}
+#index-banner-line {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.index-images img {
+    width: 450px;
+}
+.values-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 40px;
+    row-gap: 0px;
+}
